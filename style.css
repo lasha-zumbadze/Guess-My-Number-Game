@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #222;
+  height: 100vh;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* *************************************** */
+/* GENERAL STYLES */
+/* *************************************** */
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 25rem;
+}
+
+.btn {
+  font-family: inherit;
+  width: 17rem;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  background-color: #eee;
+  border: none;
+  color: #222;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c6c6c6;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* *************************************** */
+/* HEADING */
+/* *************************************** */
+.header {
+  height: 35vh;
+  border-bottom: 5px solid #eee;
+  position: relative;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+  font-size: 1.5rem;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.result {
+  width: 18rem;
+  height: 15rem;
+  background-color: #eee;
+  color: #222;
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+/* *************************************** */
+/* MAIN */
+/* *************************************** */
+.gaming-section {
+  height: 65vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.info-section {
+  font-size: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: start;
+}
+
+.input {
+  width: 25rem;
+  height: 11rem;
+  background-color: #222;
+  border: 5px solid #eee;
+  color: #eee;
+  font-family: inherit;
+  font-size: 5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.scores {
+  display: grid;
+  gap: 3rem;
+}
